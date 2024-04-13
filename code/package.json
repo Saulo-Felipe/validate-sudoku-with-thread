@@ -1,0 +1,13 @@
+{
+  "name": "atividade_extra_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg -t node18-linux,node18-macos,node18-win main.js --out-path ../program"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
