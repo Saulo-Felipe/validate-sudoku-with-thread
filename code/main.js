@@ -52,7 +52,7 @@ function checkThreadResolution(message) {
 
 
 function stopAllThreads() {
-  threads.validateRows.terminate();
-  threads.validateColumns.terminate();
-  threads.validateGrids.terminate();
+  // threads.validateRows.terminate();
+  // threads.validateColumns.terminate();
+  // threads.validateGrids.terminate();
 }
