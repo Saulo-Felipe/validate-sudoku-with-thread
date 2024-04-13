@@ -40,19 +40,10 @@ function checkThreadResolution(message) {
   }
 
   if (threads.validationsCompleted === 3) {
-    stopAllThreads();
-
     if (threads.isValid) {
       return console.log("Sua solução SUDOKU é válida.");
     }
 
     console.log("Sua solução SUDOKU é inválida.");
   }
-}
-
-
-function stopAllThreads() {
-  // threads.validateRows.terminate();
-  // threads.validateColumns.terminate();
-  // threads.validateGrids.terminate();
 }
